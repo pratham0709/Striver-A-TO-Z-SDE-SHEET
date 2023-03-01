@@ -31,3 +31,22 @@ class Solution{
         printNos(N);
     }
 };
+
+// que: Print numbers from N to 1 (space separated) without the help of loops. (gfg)
+// Input:
+// N = 10
+// Output: 10 9 8 7 6 5 4 3 2 1
+
+class Solution {
+  public:
+    int i = 1;
+    void printNos(int N) {
+        // code here
+        if(N < 1){
+            return;
+        }
+        cout<<N<<" ";
+        N--;
+        printNos(N);
+    }
+};
