@@ -50,3 +50,23 @@ class Solution {
         printNos(N);
     }
 };
+
+// que: Sum of first n terms (gfg)
+// problem statement: Given and integer N.Calculate the sum of series 13 + 23 + 33 + 43 + … till N-th term.
+// Input:
+// N=5
+// Output:
+// 225
+// Explanation:
+// 13+23+33+43+53=225
+
+class Solution {
+  public:
+    long sum = 0;
+    long long sumOfSeries(long long N) {
+        // code here
+        if(N == 0) return 0;
+        sum=(N*N*N) +sumOfSeries(N-1);
+        return sum;
+    }
+};
