@@ -51,7 +51,7 @@ class Solution {
     }
 };
 
-// que: Sum of first n terms (gfg)
+// que 4: Sum of first n terms (gfg)
 // problem statement: Given and integer N.Calculate the sum of series 13 + 23 + 33 + 43 + … till N-th term.
 // Input:
 // N=5
