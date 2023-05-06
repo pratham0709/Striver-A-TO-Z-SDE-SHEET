@@ -22,7 +22,7 @@ int main(){
 		cin>>number;
 		
 		//fetch
-		cout<<hash[number]<<endl	;
+		cout<<hash[number]<<endl;
 	}
 	return 0;
 }
