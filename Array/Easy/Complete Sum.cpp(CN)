@@ -1,0 +1,15 @@
+#include <bits/stdc++.h> 
+vector<int> completeSum(vector<int> &a, int n) {
+    // Write your code here.
+    int i =0;
+    vector<int>v;
+    int ans =0;
+    while(i<n){
+         ans = ans + a[i];
+         v.push_back(ans);
+         i++; 
+    }
+    return v;
+}
+
+
