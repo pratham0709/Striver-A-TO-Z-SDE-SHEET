@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+
+vector<int> majorityElementII(vector<int> &arr)
+{
+    // Write your code here.
+    map<int, int>mpp;
+    vector<int>v;
+    int n = arr.size();
+    for(int i =0; i<n; i++){
+        mpp[arr[i]]++;
+    }
+
+    for(auto it : mpp){
+        if(it.second > n/3){
+            v.push_back(it.first);
+        }
+    }
+    return v;
+
+}
