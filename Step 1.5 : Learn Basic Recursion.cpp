@@ -1,4 +1,4 @@
-// que 1 :Print GFG n times without the loop. (gfg)
+// que 1 :Print GFG n times without the loop.  (gfg)
 class Solution {
   public:
     int i = 1;
